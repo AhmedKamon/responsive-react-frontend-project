@@ -12,7 +12,7 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-      <div className="gadient__bg">
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>

@@ -1,9 +1,27 @@
 import './header.css'
+import people from '../../assets/people.png'
+import ai from '../../assets/ai.png'
 
 function Header() {
     return (
-        <div>
-            Header
+        <div className='gpt3__header section__padding' id='home' >
+            <div className='gpt3__header-content' >
+                <h1 className='gradient__text' >
+                    Let's Build Somthing amazing with GPT-3 OperAI
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint id magnam, totam aspernatur error eaque labore ab officia vero aliquid.Sint id magnam, totam aspernatur error eaque labore ab officia vero aliquid</p>
+                <div className='gpt3__header-content__input'>
+                    <input type="email" placeholder='your email address' />
+                    <button type='button'>Get Started</button>
+                </div>
+                <div className='gpt3__header-content__people'>
+                    <img src={people} alt="people" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, .</p>
+                </div>
+                <div className='gpt3__header-img'>
+                    <img src={ai} alt="AI" />
+                </div>
+            </div>
         </div>
     )
 }

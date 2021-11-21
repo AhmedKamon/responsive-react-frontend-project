@@ -18,10 +18,11 @@ function Header() {
                     <img src={people} alt="people" />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, .</p>
                 </div>
-                <div className='gpt3__header-img'>
+                
+            </div>
+            <div className='gpt3__header-img'>
                     <img src={ai} alt="AI" />
                 </div>
-            </div>
         </div>
     )
 }

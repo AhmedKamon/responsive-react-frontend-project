@@ -16,7 +16,7 @@ function Header() {
                 </div>
                 <div className='gpt3__header-content__people'>
                     <img src={people} alt="people" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, .</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
                 </div>
                 
             </div>
